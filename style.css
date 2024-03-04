@@ -61,30 +61,23 @@ body{
 .button{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .btn-des{
-  background-color: #1b1f59;
+  background-color: #ac0422;
   border: none;
   height: 50px;
   width: 190px;
   text-align: center;
-  color: #ffece4;
+  color: #fee7de;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #335099;
-}
-
-.b-one{
-  margin-right: 50px;
-}
-
-.b-two{
-  margin-left: 50px;
+.hover-des:hover{
+  background-color: #ff0b37;
 }
 
 .logo{
